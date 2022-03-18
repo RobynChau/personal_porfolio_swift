@@ -70,7 +70,7 @@ struct EditProjectsView: View {
             }
             .navigationTitle("Edit Project")
             .onDisappear(perform: dataController.save)
-            .alert("Are you sure?", isPresented: $showingDeleteConfirm){
+            .alert("Delete project?", isPresented: $showingDeleteConfirm){
                 Button("Delete", role: .destructive){
                     delete()
                 }
@@ -94,7 +94,10 @@ struct EditProjectsView: View {
 }
 
 struct EditProjectsView_Previews: PreviewProvider {
+    static var dataController = DataController.preview
     static var previews: some View {
         EditProjectsView(project: Project.example)
+            .environmentObject(dataController)
+
     }
 }
