@@ -66,4 +66,6 @@ extension Project {
             return first.itemCreationDate < second.itemCreationDate
         }
     }
+    
+    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
 }

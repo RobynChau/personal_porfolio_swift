@@ -29,12 +29,12 @@ struct EditItemView: View {
     var body: some View {
         Form {
             Section("Basic settings") {
-                TextField("Item name", text: $title)
-                TextField("Description", text: $detail)
+                TextField("Item name", text: $title.onChange(update))
+                TextField("Description", text: $detail.onChange(update))
             }
             
             Section("Priority"){
-                Picker("Priority", selection: $priority){
+                Picker("Priority", selection: $priority.onChange(update)){
                     Text("Low").tag(1)
                     Text("Medium").tag(2)
                     Text("High").tag(3)
@@ -43,10 +43,19 @@ struct EditItemView: View {
             }
             
             Section{
-                Toggle("Mark completed", isOn: $completed)
+                Toggle("Mark completed", isOn: $completed.onChange(update))
             }
         }
         .navigationTitle("Edit Item")
+        .onDisappear(perform: dataController.save)
+    }
+    func update() {
+        item.project?.objectWillChange.send()
+        
+        item.title = title
+        item.detail = detail
+        item.priority = Int16(priority)
+        item.completed = completed
     }
 }
 
