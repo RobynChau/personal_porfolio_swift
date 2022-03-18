@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D997C6AC27E41FB9006F757C /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */; };
+		D997C6AE27E4209A006F757C /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */; };
+		D997C6B027E42A5F006F757C /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AF27E42A5F006F757C /* EditItemView.swift */; };
 		D9D92A7627E32BB500E2A7BE /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A7527E32BB500E2A7BE /* PortfolioApp.swift */; };
 		D9D92A7827E32BB500E2A7BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A7727E32BB500E2A7BE /* ContentView.swift */; };
 		D9D92A7A27E32BB600E2A7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D92A7927E32BB600E2A7BE /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D997C6AF27E42A5F006F757C /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		D9D92A7227E32BB500E2A7BE /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D92A7527E32BB500E2A7BE /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
 		D9D92A7727E32BB500E2A7BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				D9D92A8827E32D7C00E2A7BE /* HomeView.swift */,
 				D9D92A8A27E32D9400E2A7BE /* ProjectsView.swift */,
 				D9D92A8627E32CDC00E2A7BE /* DataController.swift */,
+				D997C6AF27E42A5F006F757C /* EditItemView.swift */,
+				D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */,
+				D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */,
 				D9D92A7727E32BB500E2A7BE /* ContentView.swift */,
 				D9D92A8327E32BCF00E2A7BE /* Main.xcdatamodeld */,
 				D9D92A7927E32BB600E2A7BE /* Assets.xcassets */,
@@ -151,10 +160,13 @@
 			files = (
 				D9D92A8B27E32D9400E2A7BE /* ProjectsView.swift in Sources */,
 				D9D92A8527E32BCF00E2A7BE /* Main.xcdatamodeld in Sources */,
+				D997C6AE27E4209A006F757C /* Project-CoreDataHelpers.swift in Sources */,
 				D9D92A8727E32CDC00E2A7BE /* DataController.swift in Sources */,
 				D9D92A7827E32BB500E2A7BE /* ContentView.swift in Sources */,
 				D9D92A8927E32D7C00E2A7BE /* HomeView.swift in Sources */,
 				D9D92A7627E32BB500E2A7BE /* PortfolioApp.swift in Sources */,
+				D997C6AC27E41FB9006F757C /* Item-CoreDataHelpers.swift in Sources */,
+				D997C6B027E42A5F006F757C /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
