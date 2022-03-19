@@ -1,119 +1,119 @@
 [
     {
-        "name": "First Steps",
-        "description": "Add your first item.",
+        "name": "Bước Đầu Tiên",
+        "description": "Thêm Công việc đầu tiên.",
         "color": "Light Blue",
         "criterion": "items",
         "value": 1,
         "image": "figure.walk"
     },
     {
-        "name": "A Great Start",
-        "description": "Add 10 item.",
+        "name": "Khởi Đầu Tốt",
+        "description": "Thêm 10 Công việc",
         "color": "Light Blue",
         "criterion": "items",
         "value": 10,
         "image": "hand.thumbsup.fill"
     },
     {
-        "name": "Moving On Up",
-        "description": "Add 20 items.",
+        "name": "Tiếp Tục Nào",
+        "description": "Thêm 20 công việc",
         "color": "Light Blue",
         "criterion": "items",
         "value": 20,
         "image": "tray.and.arrow.up.fill"
     },
     {
-        "name": "Gathering Speed",
-        "description": "Add 50 items.",
+        "name": "Lấy Đà",
+        "description": "Thêm 50 Công việc",
         "color": "Light Blue",
         "criterion": "items",
         "value": 50,
         "image": "speedometer"
     },
     {
-        "name": "Making Waves",
-        "description": "Add 100 items.",
+        "name": "Cơn Sóng Cuộn Trào",
+        "description": "Thêm 100 Công việc.",
         "color": "Light Blue",
         "criterion": "items",
         "value": 100,
         "image": "dot.radiowaves.left.and.right"
     },
     {
-        "name": "High Performer",
-        "description": "Add 250 items.",
+        "name": "Thật Ngưỡng Mộ!",
+        "description": "Thêm 250 Công việc.",
         "color": "Light Blue",
         "criterion": "items",
         "value": 250,
         "image": "square.stack.3d.up.fill"
     },
     {
-        "name": "Star Performer",
-        "description": "Add 500 items.",
+        "name": "Ngôi Sao",
+        "description": "Thêm 500 Công việc.",
         "color": "Light Blue",
         "criterion": "items",
         "value": 500,
         "image": "star.circle.fill"
     },
     {
-        "name": "Champion Performer",
-        "description": "Add 1000 items.",
+        "name": "Nhà Vô Địch",
+        "description": "Thêm 1000 Công việc.",
         "color": "Light Blue",
         "criterion": "items",
         "value": 1000,
         "image": "crown.fill"
     },
     {
-        "name": "Checking Boxes",
-        "description": "Complete your first item.",
+        "name": "Dấu Ấn Đầu Tiên",
+        "description": "Hoàn thành Công việc đầu tiên.",
         "color": "Orange",
         "criterion": "complete",
         "value": 1,
         "image": "checkmark.shield.fill"
     },
     {
-        "name": "Rocking it",
-        "description": "Complete 10 items.",
+        "name": "Thật Tuyệt Vời!",
+        "description": "Hoàn thành 10 Công việc.",
         "color": "Orange",
         "criterion": "complete",
         "value": 10,
         "image": "guitars.fill"
     },
     {
-        "name": "20 is Plenty",
-        "description": "Complete 20 items.",
+        "name": "20 Công Việc Rồi Sao?",
+        "description": "Hoàn thành 20 Công việc.",
         "color": "Orange",
         "criterion": "complete",
         "value": 20,
         "image": "20.square.fill"
     },
     {
-        "name": "Bullseye!",
-        "description": "Complete 50 items.",
+        "name": "Quá Chuẩn Xác!",
+        "description": "Hoàn thành 50 Công việc.",
         "color": "Orange",
         "criterion": "complete",
         "value": 50,
         "image": "target"
     },
     {
-        "name": "Flying High",
-        "description": "Complete 100 items.",
+        "name": "Bay Thật Cao",
+        "description": "Hoàn thành 100 Công việc.",
         "color": "Orange",
         "criterion": "complete",
         "value": 100,
         "image": "airplane.circle.fill"
     },
     {
-        "name": "You're On Fire!",
-        "description": "Complete 250 items.",
+        "name": "Bạn Thật Tuyệt Vời!",
+        "description": "Hoàn thành 100 Công việc..",
         "color": "Orange",
         "criterion": "complete",
         "value": 250,
         "image": "flame.fill"
     },
     {
-        "name": "Box Ticker in Chief",
-        "description": "Complete 500 items.",
+        "name": "Hoàn Thành Đầy Thần Thái",
+        "description": "Hoàn thành 500 Công việc.",
         "color": "Orange",
         "criterion": "complete",
         "value": 500,
@@ -121,39 +121,39 @@
     },
     {
         "name": "Boom!",
-        "description": "Complete 1000 items.",
+        "description": "Hoàn thành 100 Công việc.",
         "color": "Orange",
         "criterion": "complete",
         "value": 1000,
         "image": "bolt.circle.fill"
     },
     {
-        "name": "First Message",
-        "description": "You posted your first message to the group chat.",
+        "name": "Tin Nhắn Đầu Tiên",
+        "description": "Bạn đăng tin nhắn đầu tiên vào nhóm chat.",
         "color": "Purple",
         "criterion": "chat",
         "value": 1,
         "image": "person.fill"
     },
     {
-        "name": "Frequent Chatter",
-        "description": "You've posted 10 messages to the group chat.",
+        "name": "Người Thích Trò Chuyện",
+        "description": "Bạn đăng 10 tin nhắn vào nhóm chat.",
         "color": "Purple",
         "criterion": "chat",
         "value": 10,
         "image": "message.fill"
     },
     {
-        "name": "Community Powerhouse",
-        "description": "You've posted 100 messages to the group chat.",
+        "name": "Nguồn Năng Lượng Của Cộng Đồng",
+        "description": "Bạn đăng 100 tin nhắn vào nhóm chat.",
         "color": "Purple",
         "criterion": "chat",
         "value": 100,
         "image": "arrow.up.heart.fill"
     },
     {
-        "name": "Supporter",
-        "description": "You bought the premium unlock.",
+        "name": "Người Hỗ Trợ",
+        "description": "Bạn đã mua tính năng mở khoá.",
         "color": "Green",
         "criterion": "unlock",
         "value": 0,

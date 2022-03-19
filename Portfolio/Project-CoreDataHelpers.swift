@@ -8,8 +8,10 @@
 import Foundation
 
 extension Project {
+    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+
     var projectTitle: String {
-        title ?? "New Project"
+        title ?? NSLocalizedString("New Project", comment: "Create a new project")
     }
     
     var projectDetail: String {
@@ -79,6 +81,4 @@ extension Project {
             return first.itemCreationDate < second.itemCreationDate
         }
     }
-    
-    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
 }

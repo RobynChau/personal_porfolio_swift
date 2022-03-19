@@ -1,0 +1,85 @@
+/* GENERAL STRINGS */
+
+"OK" = "OK";
+"Delete" = "Xoá";
+"Basic settings" = "Thông tin Cơ bản";
+
+
+
+/* MAIN ACTIVITIES */
+
+"Home" = "Trang chủ";
+"Open" = "Mở";
+"Closed" = "Đóng";
+"Awards" = "Huy hiệu";
+
+
+
+/* HOME VIEW */
+
+"Up next" = "Đáng chú ý";
+"More to explore" = "Mới & Khám phá";
+
+
+
+/* PROJECTS VIEW */
+
+"Open Projects" = "Dự Án Mở";
+"Closed Projects" = "Dự Án Đóng";
+"Add Project" = "Thêm Dự Án";
+"Add New Item" = "Thêm Công Việc";
+"There's nothing here right now" = "Chưa có thông tin được chọn";
+
+/* A button that shows a menu with the following options */
+"Sort" = "Sắp xếp";
+"Sort items" = "Sắp xếp Công việc"; /* The title of the menu */
+"Optimized" = "Tối ưu"; /* Sort using an optimized algorithm */
+"Creation Date" = "Ngày tạo"; /* Sort by the date items were created */
+"Title" = "Tiêu đề"; /* Sort by item title */
+
+/* Default names for a new project and a new item */
+"New Project" = "Dự Án Mới";
+"New Item" = "Công Việc Mới";
+
+
+
+/* EDITING PROJECTS */
+"Edit Project" = "Chỉnh sửa Dự Án";
+"Project name" = "Tên Dự án";
+"Description of this project" = "Mô tả của Dự án";
+"Custom project color" = "Màu tự chọn cho Dự án";
+
+/* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
+"Close this project" = "Kết thúc Dự án";
+"Closing a project moves it from the Open to Closed tab; deleting it removes the project entirely." = "Kết thúc một Dự án sẽ chuyển Dự án ấy từ mục Mở sang mục Đóng.";
+"Reopen this project" = "Mở lại Dự án";
+"Delete this project" = "Xoá Dự án";
+"Delete project?" = "Xoá Dự án?";
+"Are you sure you want to delete this project? You will also delete all the items it contains." = "Bạn có chắc chắn muốn xoá Dự án không? Xoá dự án sẽ xoá tất cả Công việc bên trong Dự án";
+
+
+
+/* EDITING ITEMS */
+"Edit Item" = "Chỉnh sửa Công việc";
+"Item name" = "Tên Công việc";
+"Description" = "Mô tả";
+"Priority" = "Mức độ ưu tiên";
+"Low" = "Thấp";
+"Medium" = "Trung bình";
+"High" = "Cao";
+
+"Mark Completed" = "Đánh dấu Hoàn thành"; /* Mark this item as being completed (finished/accomplished) */
+
+
+
+/* AWARDS */
+
+"Locked" = "Khoá";
+"Unlocked: %@" = "Mở khoá: %@";
+
+
+
+/* OTHER STRINGS */
+
+/* Shown by default when the user hasn't select a project or item */
+"Please select something from the menu to begin." = "Hãy chọn một mục từ menu để bắt đầu";

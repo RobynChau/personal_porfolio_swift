@@ -33,7 +33,7 @@ struct EditProjectsView: View {
         Form {
             Section("Basic settings"){
                 TextField("Project name", text: $title.onChange(update))
-                TextField("Description for this project", text: $detail.onChange(update))
+                TextField("Description of this project", text: $detail.onChange(update))
             }
             
             Section("Custom project color") {
@@ -58,7 +58,7 @@ struct EditProjectsView: View {
                 }
                 .padding(.vertical)
             }
-            Section(footer: Text("Closing a project moves it from the Open to Closed tab; deleting it removes the project completely.")) {
+            Section(footer: Text("Closing a project moves it from the Open to Closed tab; deleting it removes the project entirely.")) {
                 Button(project.closed ? "Reopen this project" : "Close this project") {
                     project.closed.toggle()
                     update()
@@ -75,7 +75,7 @@ struct EditProjectsView: View {
                     delete()
                 }
             } message: {
-                Text("Are you sure you want to delete this project? You will also delete all the items it contains")
+                Text("Are you sure you want to delete this project? You will also delete all the items it contains.")
             }
         }
         
