@@ -18,8 +18,7 @@ struct ItemListView: View {
                 .font(.headline)
                 .foregroundColor(.secondary)
                 .padding(.top)
-            
-            ForEach(items) {item in
+            ForEach(items) { item in
                 NavigationLink {
                     EditItemView(item: item)
                 } label: {
@@ -28,18 +27,15 @@ struct ItemListView: View {
             }
         }
     }
-    
-    func itemDetail (for item: Item) -> some View{
+    func itemDetail (for item: Item) -> some View {
         HStack(spacing: 20) {
             Circle()
                 .stroke(Color(item.project?.projectColor ?? "Light Blue"), lineWidth: 3)
                 .frame(width: 44, height: 44)
-            
-            VStack(alignment: .leading){
+            VStack(alignment: .leading) {
                 Text(item.itemTitle)
                     .font(.title2)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                
                 if item.itemDetail.isEmpty == false {
                     Text(item.itemDetail)
                         .foregroundColor(.secondary)
@@ -52,9 +48,3 @@ struct ItemListView: View {
         .shadow(color: .black.opacity(0.2), radius: 5)
     }
 }
-
-//struct ItemListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ItemListView()
-//    }
-//}
