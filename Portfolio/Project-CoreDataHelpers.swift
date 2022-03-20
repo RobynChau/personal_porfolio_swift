@@ -5,7 +5,7 @@
 //  Created by Robyn Chau on 18/03/2022.
 //
 
-import Foundation
+import SwiftUI
 
 extension Project {
     static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
@@ -29,6 +29,10 @@ extension Project {
         let completedItems = originalItems.filter(\.completed)
         return Double(completedItems.count) / Double(originalItems.count)
         
+    }
+    
+    var label: LocalizedStringKey {
+        LocalizedStringKey("\(projectTitle), \(projectItems.count) items, \(completionAmount * 100, specifier: "%g")% complete.")
     }
     
     static var example: Project {
