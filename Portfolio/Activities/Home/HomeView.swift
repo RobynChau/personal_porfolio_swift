@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     static let tag: String? = "Home"
+
     @EnvironmentObject var dataController: DataController
     @FetchRequest(
         entity: Project.entity(),
@@ -16,10 +17,13 @@ struct HomeView: View {
         predicate: NSPredicate(format: "closed = false")
     ) var projects: FetchedResults<Project>
     let items: FetchRequest<Item>
+
     var projectRows: [GridItem] {
         [GridItem(.fixed(100))]
     }
     init() {
+        // Construct a fetch request to show the 10 highest-priority,
+        // incomplete item from open projects.
         let request: NSFetchRequest<Item> = Item.fetchRequest()
         let completedPredicate = NSPredicate(format: "completed = false")
         let openPredicate = NSPredicate(format: "project.closed = false")

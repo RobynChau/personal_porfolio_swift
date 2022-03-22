@@ -1,0 +1,20 @@
+//
+//  AssetsTests.swift
+//  PortfolioTests
+//
+//  Created by Robyn Chau on 21/03/2022.
+//
+
+import XCTest
+@testable import Portfolio
+
+class AssetsTests: XCTestCase {
+    func testColorsExist() {
+        for color in Project.colors {
+            XCTAssertNotNil(UIColor(named: color), "Failed to load color '\(color)' from asset catalog")
+        }
+    }
+    func testJSONLoadsCorrectly() {
+        XCTAssertFalse(Award.allAwards.isEmpty, "Failed to load awards from JSON")
+    }
+}

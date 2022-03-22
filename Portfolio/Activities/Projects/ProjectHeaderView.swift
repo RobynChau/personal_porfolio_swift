@@ -20,7 +20,8 @@ struct ProjectHeaderView: View {
             NavigationLink {
                 EditProjectsView(project: project)
             } label: {
-                Image(systemName: "square.and.pencil")
+                Label("\(project.projectTitle)", systemImage: "square.and.pencil")
+                    .labelStyle(.iconOnly)
                     .imageScale(.large)
             }
         }

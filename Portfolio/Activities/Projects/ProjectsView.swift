@@ -50,7 +50,7 @@ struct ProjectsView: View {
                 Button {
                     addProject()
                 } label: {
-                    Label("Add project", systemImage: "plus")
+                    Label("Add Project", systemImage: "plus")
                 }
             }
         }
