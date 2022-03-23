@@ -7,18 +7,27 @@
 
 import SwiftUI
 
+class ArraySliceItems: ObservableObject {
+    @Published var items: ArraySlice<Item>
+
+    init(items: ArraySlice<Item>) {
+        self.items = items
+    }
+}
+
 struct ItemListView: View {
     let title: LocalizedStringKey
-    let items: FetchedResults<Item>.SubSequence
+    @ObservedObject var items: ArraySliceItems
+
     var body: some View {
-        if items.isEmpty {
+        if items.items.isEmpty {
             EmptyView()
         } else {
             Text(title)
                 .font(.headline)
                 .foregroundColor(.secondary)
                 .padding(.top)
-            ForEach(items) { item in
+            ForEach(items.items) { item in
                 NavigationLink {
                     EditItemView(item: item)
                 } label: {
@@ -27,6 +36,7 @@ struct ItemListView: View {
             }
         }
     }
+
     func itemDetail (for item: Item) -> some View {
         HStack(spacing: 20) {
             Circle()

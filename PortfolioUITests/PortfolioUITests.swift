@@ -83,7 +83,6 @@ class PortfolioUITests: XCTestCase {
 
         for award in app.scrollViews.buttons.allElementsBoundByIndex {
             award.tap()
-
             XCTAssertTrue(app.alerts["Locked"].exists, "There should be a locked alert showing for awards.")
             app.buttons["OK"].tap()
         }

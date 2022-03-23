@@ -11,8 +11,10 @@ import SwiftUI
 /// An environment singleton responsible for managing our Core Data stack, including handling saving,
 /// counting fetch requests, tracking awards, and dealing with sample data
 class DataController: ObservableObject {
+
     /// The lone CloudKit  container used to store all our data
     let container: NSPersistentCloudKitContainer
+
     /// Initializes a data controller, either in memory (for temporary use such as testing and previewing),
     /// or on permanent storage (for use in regular app runs.) Defaults to permanent storage
     /// - Parameter inMemory: Whether to store the data in temporary memory or not
@@ -31,11 +33,11 @@ class DataController: ObservableObject {
             #if DEBUG
             if CommandLine.arguments.contains("enable-testing") {
                 self.deleteAll()
-                UIView.setAnimationsEnabled(false)
             }
             #endif
         }
     }
+
     static var preview: DataController = {
         let dataController = DataController(inMemory: true)
         let viewContext = dataController.container.viewContext
@@ -46,6 +48,7 @@ class DataController: ObservableObject {
         }
         return dataController
     }()
+
     static let model: NSManagedObjectModel = {
         guard let url = Bundle.main.url(forResource: "Main", withExtension: "momd") else {
             fatalError("Failed to locate model file.")
@@ -55,6 +58,7 @@ class DataController: ObservableObject {
         }
         return managedObjectModel
     }()
+
     /// Creates example projects and items to make manual testing easier
     func createSampleData() throws {
         let viewContext = container.viewContext
@@ -75,6 +79,7 @@ class DataController: ObservableObject {
         }
         try viewContext.save()
     }
+
     ///  Saves our Core Data context iff there are changes. This silently ignores
     ///  any errors caused by saving, but this should be fine because our
     ///  attributes are optional.
@@ -83,9 +88,11 @@ class DataController: ObservableObject {
             try? container.viewContext.save()
         }
     }
+
     func delete(_ object: NSManagedObject) {
         container.viewContext.delete(object)
     }
+
     func deleteAll() {
         let fetchRequest1: NSFetchRequest<NSFetchRequestResult> = Item.fetchRequest()
         let batchDeleteRequest1 = NSBatchDeleteRequest(fetchRequest: fetchRequest1)
@@ -95,9 +102,11 @@ class DataController: ObservableObject {
         let batchDeleteRequest2 = NSBatchDeleteRequest(fetchRequest: fetchRequest2)
         _ = try? container.viewContext.execute(batchDeleteRequest2)
     }
+
     func count<T> (for fetchRequest: NSFetchRequest<T>) -> Int {
         (try? container.viewContext.count(for: fetchRequest)) ?? 0
     }
+
     func hasEarned(award: Award) -> Bool {
         switch award.criterion {
         case "items":
