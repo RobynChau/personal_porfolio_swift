@@ -11,19 +11,16 @@ import XCTest
 
 class AwardTests: BaseTestCase {
     let awards = Award.allAwards
-
     func testAwardIDMatchesName() {
         for award in awards {
             XCTAssertEqual(award.id, award.name, "Award ID should always match its name.")
         }
     }
-
     func testNewUserHasNoAwards() {
         for award in awards {
             XCTAssertFalse(dataController.hasEarned(award: award), "New User should not have earned \(award.name).")
         }
     }
-
     func testAddingItems() {
         let values = [1, 10, 20, 50, 100, 250, 500, 1000]
         for (count, value) in values.enumerated() {
@@ -37,7 +34,6 @@ class AwardTests: BaseTestCase {
             dataController.deleteAll()
         }
     }
-
     func testCompletingItems() {
         let values = [1, 10, 20, 50, 100, 250, 500, 1000]
         for (count, value) in values.enumerated() {

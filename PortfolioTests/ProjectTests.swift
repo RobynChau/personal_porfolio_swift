@@ -22,7 +22,6 @@ class ProjectTests: BaseTestCase {
         XCTAssertEqual(dataController.count(for: Project.fetchRequest()), targetCount)
         XCTAssertEqual(dataController.count(for: Item.fetchRequest()), targetCount * targetCount)
     }
-
     func testDeletingProjectCascadeDeletesItems() throws {
         try dataController.createSampleData()
         let request = NSFetchRequest<Project>(entityName: "Project")

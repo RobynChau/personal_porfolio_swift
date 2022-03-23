@@ -10,12 +10,10 @@ import SwiftUI
 @main
 struct PortfolioApp: App {
     @StateObject var dataController: DataController
-
     init() {
         let dataController = DataController()
         _dataController = StateObject(wrappedValue: dataController)
     }
-
     var body: some Scene {
         WindowGroup {
             ContentView()
