@@ -26,6 +26,9 @@
 		D98BEAA227E838E200E90060 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAA127E838E200E90060 /* PerformanceTests.swift */; };
 		D98BEAAB27E9BC1500E90060 /* PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAAA27E9BC1500E90060 /* PortfolioUITests.swift */; };
 		D98BEAAD27E9BC1500E90060 /* PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAAC27E9BC1500E90060 /* PortfolioUITestsLaunchTests.swift */; };
+		D98BEAB427EA2D5F00E90060 /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAB327EA2D5F00E90060 /* ProjectsViewModel.swift */; };
+		D98BEAB627EA393800E90060 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAB527EA393800E90060 /* HomeViewModel.swift */; };
+		D98BEAB827EA401600E90060 /* ItemRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAB727EA401600E90060 /* ItemRowViewModel.swift */; };
 		D997C6AC27E41FB9006F757C /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */; };
 		D997C6AE27E4209A006F757C /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */; };
 		D997C6B027E42A5F006F757C /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AF27E42A5F006F757C /* EditItemView.swift */; };
@@ -86,6 +89,9 @@
 		D98BEAA827E9BC1400E90060 /* PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98BEAAA27E9BC1500E90060 /* PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITests.swift; sourceTree = "<group>"; };
 		D98BEAAC27E9BC1500E90060 /* PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D98BEAB327EA2D5F00E90060 /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		D98BEAB527EA393800E90060 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = Portfolio/Activities/Projects/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
+		D98BEAB727EA401600E90060 /* ItemRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowViewModel.swift; sourceTree = "<group>"; };
 		D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D997C6AF27E42A5F006F757C /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
@@ -183,9 +189,11 @@
 			isa = PBXGroup;
 			children = (
 				D9D92A8A27E32D9400E2A7BE /* ProjectsView.swift */,
+				D98BEAB327EA2D5F00E90060 /* ProjectsViewModel.swift */,
 				D96EB84527E5DC3700C0DCB3 /* SelectSomethingView.swift */,
 				D997C6B527E43BBB006F757C /* ProjectHeaderView.swift */,
 				D997C6B127E434EE006F757C /* ItemRowView.swift */,
+				D98BEAB727EA401600E90060 /* ItemRowViewModel.swift */,
 				D96EB82C27E43FED00C0DCB3 /* EditProjectsView.swift */,
 				D997C6AF27E42A5F006F757C /* EditItemView.swift */,
 			);
@@ -196,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D92A8827E32D7C00E2A7BE /* HomeView.swift */,
+				D98BEAB527EA393800E90060 /* HomeViewModel.swift */,
 				D9D0AC3327E708C8001C8ADE /* ProjectSummaryView.swift */,
 				D9D0AC3127E70821001C8ADE /* ItemListView.swift */,
 			);
@@ -478,6 +487,7 @@
 				D997C6B627E43BBB006F757C /* ProjectHeaderView.swift in Sources */,
 				D96EB84E27E63C4400C0DCB3 /* AwardsView.swift in Sources */,
 				D96EB82D27E43FED00C0DCB3 /* EditProjectsView.swift in Sources */,
+				D98BEAB627EA393800E90060 /* HomeViewModel.swift in Sources */,
 				D9D92A8527E32BCF00E2A7BE /* Main.xcdatamodeld in Sources */,
 				D96EB85027E6449A00C0DCB3 /* Color-Additions.swift in Sources */,
 				D997C6AE27E4209A006F757C /* Project-CoreDataHelpers.swift in Sources */,
@@ -492,7 +502,9 @@
 				D9D0AC3227E70821001C8ADE /* ItemListView.swift in Sources */,
 				D9D92A8927E32D7C00E2A7BE /* HomeView.swift in Sources */,
 				D9D92A7627E32BB500E2A7BE /* PortfolioApp.swift in Sources */,
+				D98BEAB827EA401600E90060 /* ItemRowViewModel.swift in Sources */,
 				D997C6AC27E41FB9006F757C /* Item-CoreDataHelpers.swift in Sources */,
+				D98BEAB427EA2D5F00E90060 /* ProjectsViewModel.swift in Sources */,
 				D997C6B027E42A5F006F757C /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
