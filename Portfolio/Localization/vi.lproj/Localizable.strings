@@ -73,12 +73,12 @@
 "Dark Gray" = "Xám đậm";
 "Gray" = "Xám";
 
-"Project reminders" = "Project reminders";
-"Show reminders" = "Show reminders";
-"Oops!" = "Oops!";
-"There was a problem. Please check you have notifications enabled." = "There was a problem. Please check you have notifications enabled.";
-"Check Settings" = "Check Settings";
-"Reminder time" = "Reminder time";
+"Project reminders" = "Nhắc nhở Dự án";
+"Show reminders" = "Bật nhắc nhở";
+"Oops!" = "Ồ không!";
+"There was a problem. Please check you have notifications enabled." = "Có lỗi xảy ra. Hãy kiểm tra liệu quyền thông báo đã được bật";
+"Check Settings" = "Kiểm tra Cài đặt";
+"Reminder time" = "Thời gian Nhắc nhở";
 
 
 /* EDITING ITEMS */
@@ -99,7 +99,17 @@
 "Locked" = "Khoá";
 "Unlocked: %@" = "Mở khoá: %@";
 
-
+// Unlocking premium
+"Get Unlimited Projects" = "Không giới hạn Dự án";
+"You can add three projects for free, or pay %@ to add unlimited projects." = "Bạn có thể thêm 3 Dự án miễn phí, hoặc trả %@ để thêm không giới hạn Dự án.";
+"If you already bought the unlock on another device, press Restore Purchases." = "Nếu bạn đã mở khoá tính năng trên thiết bị khác, chọn nút Mở lại Giao dịch.";
+"Restore Purchases" = "Mở lại Giao dịch";
+"Sorry, there was an error loading the store. Please try again later." = "Xin lỗi. Đã có lỗi xảy ra trong quá trình truy cập cửa hàng. Vui long thử lại.";
+"Buy: %@" = "Mua: %@";
+"Loading…" = "Đang tải…";
+"Thank you!" = "Xin cảm ơn!";
+"Thank you! Your request is pending approval, but you can carry on using the app in the meantime." = "Xin cảm ơn! Yêu cầu giao dịch của bạn đang được xem xét. Bạn có thể tiếp tục sử dụng ứng dụng trong thời gian chờ đợi.";
+"Dismiss" = "Huỷ";
 
 /* OTHER STRINGS */
 
