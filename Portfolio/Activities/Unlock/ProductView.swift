@@ -18,7 +18,7 @@ struct ProductView: View {
                 Text("Get Unlimited Project")
                     .font(.headline)
                     .padding(.top, 10)
-                Text("You can add three projects for three, or pay \(product.localizedPrice) to add unlimited projects.")
+                Text("You can add three projects for three, or pay \(product.localizedPrice) to add unlimited projects")
                 Text("If you already bought the unlock on another device, please Restore Purchases.")
 
                 Button("Buy: \(product.localizedPrice)", action: unlock)

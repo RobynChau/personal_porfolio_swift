@@ -91,12 +91,22 @@ struct ProjectsView: View {
         .sheet(isPresented: $viewModel.showingUnlockView) {
             UnlockView()
         }
+        .onOpenURL(perform: viewModel.showClosedProjects ? openURL : emptyFunc(_:))
     }
 
     init(dataController: DataController, showClosedProjects: Bool) {
         let viewModel = ViewModel(dataController: dataController, showClosedProjects: showClosedProjects)
 
         _viewModel = StateObject(wrappedValue: viewModel)
+    }
+
+    func openURL(_ url: URL) {
+        viewModel.addProject()
+    }
+
+    func emptyFunc (_ url: URL) {
+        // This function was created due to a bug
+        // It happens due to both Open and Closed Projects View can create a new Project
     }
 }
 

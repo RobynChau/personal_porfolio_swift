@@ -254,12 +254,26 @@ class DataController: ObservableObject {
         }
     }
 
+    @discardableResult func addProject() -> Bool {
+        let canCreate = fullVersionUnlocked || count(for: Project.fetchRequest()) < 3
+
+        if canCreate {
+            let project = Project(context: container.viewContext)
+            project.closed = false
+            project.creationDate = Date()
+            save()
+            return true
+        } else {
+            return false
+        }
+    }
+
     func appLaunched() {
         guard count(for: Project.fetchRequest()) >= 5 else { return }
 
-        if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-            SKStoreReviewController.requestReview(in: scene)
-        }
+        // if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            // SKStoreReviewController.requestReview(in: scene)
+        // }
 
         /*
         // Although this code is designed to work on both the iPhones and the iPads, it does not work on iOS 15.4.

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D947F65D27EE2D04009CDF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947F65C27EE2D04009CDF92 /* AppDelegate.swift */; };
+		D947F65F27EE2D0E009CDF92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */; };
 		D96EB82B27E43EC300C0DCB3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96EB82A27E43EC300C0DCB3 /* Colors.xcassets */; };
 		D96EB82D27E43FED00C0DCB3 /* EditProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB82C27E43FED00C0DCB3 /* EditProjectsView.swift */; };
 		D96EB83127E48C2700C0DCB3 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB83027E48C2700C0DCB3 /* Sequence-Sorting.swift */; };
@@ -73,6 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D947F65A27EDBB23009CDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D947F65C27EE2D04009CDF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D96EB82A27E43EC300C0DCB3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D96EB82C27E43FED00C0DCB3 /* EditProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectsView.swift; sourceTree = "<group>"; };
 		D96EB83027E48C2700C0DCB3 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
@@ -82,12 +87,11 @@
 		D96EB84D27E63C4400C0DCB3 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		D96EB84F27E6449900C0DCB3 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		D980D45B27ECCA970000DD41 /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockManager.swift; sourceTree = "<group>"; };
-		D980D45D27ECCC3F0000DD41 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		D980D45E27ECDB7F0000DD41 /* SKProduct-LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct-LocalizedPrice.swift"; sourceTree = "<group>"; };
 		D980D46027ED6FC80000DD41 /* PurchaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
 		D980D46227ED70AF0000DD41 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		D980D46427ED71FF0000DD41 /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
-		D980D46727ED7B200000DD41 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = Configuration.storekit; path = Portfolio/Configuration/Configuration.storekit; sourceTree = "<group>"; };
+		D980D46727ED7B200000DD41 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		D98BEA8727E81A5300E90060 /* PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98BEA8927E81A5300E90060 /* PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTests.swift; sourceTree = "<group>"; };
 		D98BEA9027E81BC600E90060 /* AssetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssetsTests.swift; path = Portfolio/AssetsTests.swift; sourceTree = SOURCE_ROOT; };
@@ -194,8 +198,9 @@
 		D98BEA7B27E79C6000E90060 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				D947F65A27EDBB23009CDF92 /* Info.plist */,
 				D9D92A8327E32BCF00E2A7BE /* Main.xcdatamodeld */,
-				D980D45D27ECCC3F0000DD41 /* Configuration.storekit */,
+				D980D46727ED7B200000DD41 /* Configuration.storekit */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -283,7 +288,6 @@
 		D9D92A6927E32BB500E2A7BE = {
 			isa = PBXGroup;
 			children = (
-				D980D46727ED7B200000DD41 /* Configuration.storekit */,
 				D9D92A7427E32BB500E2A7BE /* Portfolio */,
 				D98BEA8827E81A5300E90060 /* PortfolioTests */,
 				D98BEAA927E9BC1500E90060 /* PortfolioUITests */,
@@ -311,6 +315,8 @@
 				D9D92A7527E32BB500E2A7BE /* PortfolioApp.swift */,
 				D9D92A7727E32BB500E2A7BE /* ContentView.swift */,
 				D9D92A8627E32CDC00E2A7BE /* DataController.swift */,
+				D947F65C27EE2D04009CDF92 /* AppDelegate.swift */,
+				D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */,
 				D9D92A7927E32BB600E2A7BE /* Assets.xcassets */,
 				D96EB82A27E43EC300C0DCB3 /* Colors.xcassets */,
 				D9D92A7B27E32BB600E2A7BE /* Preview Content */,
@@ -407,7 +413,7 @@
 				};
 			};
 			buildConfigurationList = D9D92A6D27E32BB500E2A7BE /* Build configuration list for PBXProject "Portfolio" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -511,6 +517,7 @@
 			files = (
 				D9D92A8B27E32D9400E2A7BE /* ProjectsView.swift in Sources */,
 				D9D0AC3427E708C8001C8ADE /* ProjectSummaryView.swift in Sources */,
+				D947F65F27EE2D0E009CDF92 /* SceneDelegate.swift in Sources */,
 				D980D46127ED6FC80000DD41 /* PurchaseButton.swift in Sources */,
 				D997C6B627E43BBB006F757C /* ProjectHeaderView.swift in Sources */,
 				D980D46327ED70AF0000DD41 /* ProductView.swift in Sources */,
@@ -527,6 +534,7 @@
 				D997C6B227E434EE006F757C /* ItemRowView.swift in Sources */,
 				D980D46527ED71FF0000DD41 /* UnlockView.swift in Sources */,
 				D9D92A7827E32BB500E2A7BE /* ContentView.swift in Sources */,
+				D947F65D27EE2D04009CDF92 /* AppDelegate.swift in Sources */,
 				D997C6B427E43712006F757C /* Binding-OnChange.swift in Sources */,
 				D96EB83127E48C2700C0DCB3 /* Sequence-Sorting.swift in Sources */,
 				D96EB84827E5DE5400C0DCB3 /* Bundle-Decodable.swift in Sources */,
@@ -784,7 +792,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Portfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = S5UQWNYJJ2;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/robynchau/Desktop/Portfolio/Portfolio/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -813,7 +822,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Portfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = S5UQWNYJJ2;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/robynchau/Desktop/Portfolio/Portfolio/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
