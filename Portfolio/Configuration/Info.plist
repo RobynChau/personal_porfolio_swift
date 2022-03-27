@@ -2,17 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>New Project</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>portfolio://newProject</string>
-            <key>UIApplicationShortcutItemIconSymbolName</key>
-            <string>rectangle.stack.badge.plus</string>
-		</dict>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -56,6 +45,25 @@
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>rectangle.stack.badge.plus</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>portfolio://newProject</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>New Project</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>portfolio://viewAwards</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>View Awards</string>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>circle.grid.3x3.fill</string>
+		</dict>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -101,7 +101,9 @@ struct ProjectsView: View {
     }
 
     func openURL(_ url: URL) {
-        viewModel.addProject()
+        if url == URL(string: "portfolio://newProject") {
+            viewModel.addProject()
+        }
     }
 
     func emptyFunc (_ url: URL) {
