@@ -115,3 +115,9 @@
 
 /* Shown by default when the user hasn't select a project or item */
 "Please select something from the menu to begin." = "Please select something from the menu to begin.";
+
+/*WIDGETS*/
+"Up next…" = "Up next…";
+"Nothing!" = "Nothing!";
+"Your #1 top-priority item." = "Your #1 top-priority item.";
+"Your most important items." = "Your most important items.";

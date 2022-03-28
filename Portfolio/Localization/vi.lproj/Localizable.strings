@@ -114,4 +114,10 @@
 /* OTHER STRINGS */
 
 /* Shown by default when the user hasn't select a project or item */
-"Please select something from the menu to begin." = "Hãy chọn một mục từ menu để bắt đầu";
+"Please select something from the menu to begin." = "Hãy chọn một mục từ menu để bắt đầu.";
+
+/*WIDGETS*/
+"Up next..." = "Đáng chú ý";
+"Nothing!" = "Trống";
+"Your #1 top-priority item." = "Công việc ưu tiên nhất.";
+"Your most important items." = "Các Công việc quan trọng nhất.";

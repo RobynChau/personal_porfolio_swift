@@ -114,3 +114,9 @@
 
 /* Shown by default when the user hasn't select a project or item */
 "Please select something from the menu to begin." = "A kezdéshez válasszon valamit a menüből.";
+
+/* WIDGETS */
+"Up next…" = "Következő…";
+"Nothing!" = "Semmi!";
+"Your #1 top-priority item." = "Az #1 elsőbbségi tétel.";
+"Your most important items." = "Az elsőbbségi tételeid.";

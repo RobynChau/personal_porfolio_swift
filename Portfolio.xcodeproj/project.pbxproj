@@ -12,6 +12,13 @@
 		D94173AE27F0DF9C00BD94A8 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */; };
 		D94173B027F0DFBE00BD94A8 /* DataController-Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173AF27F0DFBE00BD94A8 /* DataController-Reminders.swift */; };
 		D94173B227F0DFF600BD94A8 /* DataController-Awards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173B127F0DFF600BD94A8 /* DataController-Awards.swift */; };
+		D94173B527F14BF100BD94A8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96EB82A27E43EC300C0DCB3 /* Colors.xcassets */; };
+		D94173B627F14C2900BD94A8 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */; };
+		D94173B727F14C4100BD94A8 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB83027E48C2700C0DCB3 /* Sequence-Sorting.swift */; };
+		D94173B927F1583500BD94A8 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173B827F1583500BD94A8 /* DataProvider.swift */; };
+		D94173BB27F158B100BD94A8 /* SimpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BA27F158B100BD94A8 /* SimpleWidget.swift */; };
+		D94173BD27F158D600BD94A8 /* ComplexWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BC27F158D600BD94A8 /* ComplexWidget.swift */; };
+		D94173BF27F15A2E00BD94A8 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */; };
 		D947F65D27EE2D04009CDF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947F65C27EE2D04009CDF92 /* AppDelegate.swift */; };
 		D947F65F27EE2D0E009CDF92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */; };
 		D963815D27F0DEC40092C16D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D963815C27F0DEC40092C16D /* WidgetKit.framework */; };
@@ -110,6 +117,10 @@
 		D94173B127F0DFF600BD94A8 /* DataController-Awards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-Awards.swift"; sourceTree = "<group>"; };
 		D94173B327F0E03B00BD94A8 /* Portfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Portfolio.entitlements; sourceTree = "<group>"; };
 		D94173B427F0E04300BD94A8 /* PortfolioWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortfolioWidgetExtension.entitlements; sourceTree = "<group>"; };
+		D94173B827F1583500BD94A8 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		D94173BA27F158B100BD94A8 /* SimpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidget.swift; sourceTree = "<group>"; };
+		D94173BC27F158D600BD94A8 /* ComplexWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexWidget.swift; sourceTree = "<group>"; };
+		D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-StoreKit.swift"; sourceTree = "<group>"; };
 		D947F65A27EDBB23009CDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D947F65C27EE2D04009CDF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -224,6 +235,9 @@
 			isa = PBXGroup;
 			children = (
 				D963816127F0DEC40092C16D /* PortfolioWidget.swift */,
+				D94173BA27F158B100BD94A8 /* SimpleWidget.swift */,
+				D94173BC27F158D600BD94A8 /* ComplexWidget.swift */,
+				D94173B827F1583500BD94A8 /* DataProvider.swift */,
 				D963816327F0DEC50092C16D /* Assets.xcassets */,
 				D963816527F0DEC50092C16D /* Info.plist */,
 			);
@@ -389,6 +403,7 @@
 				D9D92A7527E32BB500E2A7BE /* PortfolioApp.swift */,
 				D9D92A7727E32BB500E2A7BE /* ContentView.swift */,
 				D9D92A8627E32CDC00E2A7BE /* DataController.swift */,
+				D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */,
 				D94173AF27F0DFBE00BD94A8 /* DataController-Reminders.swift */,
 				D94173B127F0DFF600BD94A8 /* DataController-Awards.swift */,
 				D947F65C27EE2D04009CDF92 /* AppDelegate.swift */,
@@ -539,6 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D963816427F0DEC50092C16D /* Assets.xcassets in Resources */,
+				D94173B527F14BF100BD94A8 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +618,12 @@
 				D94173AC27F0DF9200BD94A8 /* Main.xcdatamodeld in Sources */,
 				D94173AD27F0DF9800BD94A8 /* DataController.swift in Sources */,
 				D963816227F0DEC40092C16D /* PortfolioWidget.swift in Sources */,
+				D94173BB27F158B100BD94A8 /* SimpleWidget.swift in Sources */,
+				D94173BD27F158D600BD94A8 /* ComplexWidget.swift in Sources */,
+				D94173B927F1583500BD94A8 /* DataProvider.swift in Sources */,
+				D94173B727F14C4100BD94A8 /* Sequence-Sorting.swift in Sources */,
 				D94173AE27F0DF9C00BD94A8 /* Item-CoreDataHelpers.swift in Sources */,
+				D94173B627F14C2900BD94A8 /* Project-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +664,7 @@
 				D96EB84E27E63C4400C0DCB3 /* AwardsView.swift in Sources */,
 				D96EB82D27E43FED00C0DCB3 /* EditProjectsView.swift in Sources */,
 				D98BEAB627EA393800E90060 /* HomeViewModel.swift in Sources */,
+				D94173BF27F15A2E00BD94A8 /* DataController-StoreKit.swift in Sources */,
 				D980D45C27ECCA970000DD41 /* UnlockManager.swift in Sources */,
 				D9D92A8527E32BCF00E2A7BE /* Main.xcdatamodeld in Sources */,
 				D96EB85027E6449A00C0DCB3 /* Color-Additions.swift in Sources */,
