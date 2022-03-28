@@ -40,7 +40,7 @@ struct ProjectsView: View {
     }
 
     var addProjectToolbarItem: some ToolbarContent {
-        ToolbarItem(placement: .navigationBarTrailing) {
+        ToolbarItem(placement: .primaryAction) {
             if viewModel.showClosedProjects == false {
                 Button {
                     withAnimation {
@@ -54,9 +54,11 @@ struct ProjectsView: View {
     }
 
     var sortOrderToolbarItem: some ToolbarContent {
-        ToolbarItem(placement: .navigationBarLeading) {
-        Button {
-            showingSortOrder = true
+        ToolbarItem(placement: .cancellationAction) {
+        Menu {
+            Button("Optimized") {viewModel.sortOrder = .optimized}
+            Button("Creation Date") {viewModel.sortOrder = .creationDate}
+            Button("Title") {viewModel.sortOrder = .title}
         } label: {
             Label("Sort Order", systemImage: "arrow.up.arrow.down")
         }
@@ -77,14 +79,6 @@ struct ProjectsView: View {
             .toolbar {
                 addProjectToolbarItem
                 sortOrderToolbarItem
-            }
-            .actionSheet(isPresented: $showingSortOrder) {
-                ActionSheet(title: Text("Sort items"), message: nil, buttons: [
-                    .default(Text("Optimized")) {viewModel.sortOrder = .optimized},
-                    .default(Text("Creation Date")) {viewModel.sortOrder = .creationDate},
-                    .default(Text("Title")) {viewModel.sortOrder = .title},
-                    .cancel()
-                ])
             }
             SelectSomethingView()
         }

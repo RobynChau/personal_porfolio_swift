@@ -19,6 +19,46 @@
 		D94173BB27F158B100BD94A8 /* SimpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BA27F158B100BD94A8 /* SimpleWidget.swift */; };
 		D94173BD27F158D600BD94A8 /* ComplexWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BC27F158D600BD94A8 /* ComplexWidget.swift */; };
 		D94173BF27F15A2E00BD94A8 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */; };
+		D94173CB27F1A2DB00BD94A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94173CA27F1A2DB00BD94A8 /* Assets.xcassets */; };
+		D94173CE27F1A2DB00BD94A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94173CD27F1A2DB00BD94A8 /* Preview Assets.xcassets */; };
+		D94173D327F1A40E00BD94A8 /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A7527E32BB500E2A7BE /* PortfolioApp.swift */; };
+		D94173D427F1A41D00BD94A8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A8627E32CDC00E2A7BE /* DataController.swift */; };
+		D94173D527F1A41D00BD94A8 /* DataController-Awards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173B127F0DFF600BD94A8 /* DataController-Awards.swift */; };
+		D94173D627F1A41D00BD94A8 /* DataController-Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173AF27F0DFBE00BD94A8 /* DataController-Reminders.swift */; };
+		D94173D727F1A41D00BD94A8 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */; };
+		D94173D827F1A42700BD94A8 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D0AC3327E708C8001C8ADE /* ProjectSummaryView.swift */; };
+		D94173D927F1A42700BD94A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A8827E32D7C00E2A7BE /* HomeView.swift */; };
+		D94173DA27F1A42700BD94A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAB527EA393800E90060 /* HomeViewModel.swift */; };
+		D94173DB27F1A42700BD94A8 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D0AC3127E70821001C8ADE /* ItemListView.swift */; };
+		D94173DC27F1A42E00BD94A8 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AF27E42A5F006F757C /* EditItemView.swift */; };
+		D94173DD27F1A42E00BD94A8 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6B527E43BBB006F757C /* ProjectHeaderView.swift */; };
+		D94173DE27F1A42E00BD94A8 /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAB327EA2D5F00E90060 /* ProjectsViewModel.swift */; };
+		D94173DF27F1A42E00BD94A8 /* ItemRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BEAB727EA401600E90060 /* ItemRowViewModel.swift */; };
+		D94173E027F1A42E00BD94A8 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A8A27E32D9400E2A7BE /* ProjectsView.swift */; };
+		D94173E127F1A42E00BD94A8 /* EditProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB82C27E43FED00C0DCB3 /* EditProjectsView.swift */; };
+		D94173E227F1A42E00BD94A8 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB84527E5DC3700C0DCB3 /* SelectSomethingView.swift */; };
+		D94173E327F1A42E00BD94A8 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6B127E434EE006F757C /* ItemRowView.swift */; };
+		D94173E427F1A43500BD94A8 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB84D27E63C4400C0DCB3 /* AwardsView.swift */; };
+		D94173E527F1A43500BD94A8 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB84B27E63BB200C0DCB3 /* Award.swift */; };
+		D94173E627F1A43800BD94A8 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = D9D0AC2C27E66102001C8ADE /* Awards.json */; };
+		D94173E727F1A44100BD94A8 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A8327E32BCF00E2A7BE /* Main.xcdatamodeld */; };
+		D94173E827F1A44A00BD94A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9D0AC2427E65FC1001C8ADE /* Localizable.strings */; };
+		D94173E927F1A44F00BD94A8 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D9D0AC2827E66049001C8ADE /* Localizable.stringsdict */; };
+		D94173EA27F1A45E00BD94A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D92A7727E32BB500E2A7BE /* ContentView.swift */; };
+		D94173EB27F1A46400BD94A8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96EB82A27E43EC300C0DCB3 /* Colors.xcassets */; };
+		D94173EC27F1A4AC00BD94A8 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AD27E4209A006F757C /* Project-CoreDataHelpers.swift */; };
+		D94173EE27F1A4AC00BD94A8 /* SKProduct-LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980D45E27ECDB7F0000DD41 /* SKProduct-LocalizedPrice.swift */; };
+		D94173EF27F1A4AC00BD94A8 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6B327E43712006F757C /* Binding-OnChange.swift */; };
+		D94173F027F1A4AC00BD94A8 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB84727E5DE5400C0DCB3 /* Bundle-Decodable.swift */; };
+		D94173F127F1A4AC00BD94A8 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EB83027E48C2700C0DCB3 /* Sequence-Sorting.swift */; };
+		D94173F227F1A4AC00BD94A8 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997C6AB27E41FB9006F757C /* Item-CoreDataHelpers.swift */; };
+		D94173F327F1A4C300BD94A8 /* PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980D46027ED6FC80000DD41 /* PurchaseButton.swift */; };
+		D94173F427F1A4C300BD94A8 /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980D46427ED71FF0000DD41 /* UnlockView.swift */; };
+		D94173F527F1A4C300BD94A8 /* UnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980D45B27ECCA970000DD41 /* UnlockManager.swift */; };
+		D94173F627F1A4C300BD94A8 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980D46227ED70AF0000DD41 /* ProductView.swift */; };
+		D94173F827F1A51100BD94A8 /* PlatformAdjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173F727F1A51100BD94A8 /* PlatformAdjustments.swift */; };
+		D94173FA27F1A5DC00BD94A8 /* Platform-Adjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173F927F1A5DC00BD94A8 /* Platform-Adjustments.swift */; };
+		D94173FC27F1A68800BD94A8 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94173FB27F1A68800BD94A8 /* Color-Additions.swift */; };
 		D947F65D27EE2D04009CDF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947F65C27EE2D04009CDF92 /* AppDelegate.swift */; };
 		D947F65F27EE2D0E009CDF92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */; };
 		D963815D27F0DEC40092C16D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D963815C27F0DEC40092C16D /* WidgetKit.framework */; };
@@ -121,6 +161,13 @@
 		D94173BA27F158B100BD94A8 /* SimpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidget.swift; sourceTree = "<group>"; };
 		D94173BC27F158D600BD94A8 /* ComplexWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexWidget.swift; sourceTree = "<group>"; };
 		D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-StoreKit.swift"; sourceTree = "<group>"; };
+		D94173C427F1A2D900BD94A8 /* PortfolioMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94173CA27F1A2DB00BD94A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D94173CD27F1A2DB00BD94A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D94173CF27F1A2DB00BD94A8 /* PortfolioMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortfolioMac.entitlements; sourceTree = "<group>"; };
+		D94173F727F1A51100BD94A8 /* PlatformAdjustments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformAdjustments.swift; sourceTree = "<group>"; };
+		D94173F927F1A5DC00BD94A8 /* Platform-Adjustments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Platform-Adjustments.swift"; sourceTree = "<group>"; };
+		D94173FB27F1A68800BD94A8 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		D947F65A27EDBB23009CDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D947F65C27EE2D04009CDF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +236,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D94173C127F1A2D900BD94A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D963815727F0DEC40092C16D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +276,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D94173C527F1A2D900BD94A8 /* PortfolioMac */ = {
+			isa = PBXGroup;
+			children = (
+				D94173CA27F1A2DB00BD94A8 /* Assets.xcassets */,
+				D94173CF27F1A2DB00BD94A8 /* PortfolioMac.entitlements */,
+				D94173CC27F1A2DB00BD94A8 /* Preview Content */,
+				D94173F727F1A51100BD94A8 /* PlatformAdjustments.swift */,
+				D94173FB27F1A68800BD94A8 /* Color-Additions.swift */,
+			);
+			path = PortfolioMac;
+			sourceTree = "<group>";
+		};
+		D94173CC27F1A2DB00BD94A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D94173CD27F1A2DB00BD94A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D963815B27F0DEC40092C16D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +450,7 @@
 				D98BEA8827E81A5300E90060 /* PortfolioTests */,
 				D98BEAA927E9BC1500E90060 /* PortfolioUITests */,
 				D963816027F0DEC40092C16D /* PortfolioWidget */,
+				D94173C527F1A2D900BD94A8 /* PortfolioMac */,
 				D963815B27F0DEC40092C16D /* Frameworks */,
 				D9D92A7327E32BB500E2A7BE /* Products */,
 			);
@@ -388,6 +463,7 @@
 				D98BEA8727E81A5300E90060 /* PortfolioTests.xctest */,
 				D98BEAA827E9BC1400E90060 /* PortfolioUITests.xctest */,
 				D963815A27F0DEC40092C16D /* PortfolioWidgetExtension.appex */,
+				D94173C427F1A2D900BD94A8 /* PortfolioMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -406,6 +482,7 @@
 				D94173BE27F15A2E00BD94A8 /* DataController-StoreKit.swift */,
 				D94173AF27F0DFBE00BD94A8 /* DataController-Reminders.swift */,
 				D94173B127F0DFF600BD94A8 /* DataController-Awards.swift */,
+				D94173F927F1A5DC00BD94A8 /* Platform-Adjustments.swift */,
 				D947F65C27EE2D04009CDF92 /* AppDelegate.swift */,
 				D947F65E27EE2D0E009CDF92 /* SceneDelegate.swift */,
 				D9D92A7927E32BB600E2A7BE /* Assets.xcassets */,
@@ -426,6 +503,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D94173C327F1A2D900BD94A8 /* PortfolioMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94173D027F1A2DB00BD94A8 /* Build configuration list for PBXNativeTarget "PortfolioMac" */;
+			buildPhases = (
+				D94173C027F1A2D900BD94A8 /* Sources */,
+				D94173C127F1A2D900BD94A8 /* Frameworks */,
+				D94173C227F1A2D900BD94A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortfolioMac;
+			productName = PortfolioMac;
+			productReference = D94173C427F1A2D900BD94A8 /* PortfolioMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D963815927F0DEC40092C16D /* PortfolioWidgetExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D963816C27F0DEC50092C16D /* Build configuration list for PBXNativeTarget "PortfolioWidgetExtension" */;
@@ -509,6 +603,9 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					D94173C327F1A2D900BD94A8 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					D963815927F0DEC40092C16D = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -544,11 +641,25 @@
 				D98BEA8627E81A5300E90060 /* PortfolioTests */,
 				D98BEAA727E9BC1400E90060 /* PortfolioUITests */,
 				D963815927F0DEC40092C16D /* PortfolioWidgetExtension */,
+				D94173C327F1A2D900BD94A8 /* PortfolioMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D94173C227F1A2D900BD94A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94173CE27F1A2DB00BD94A8 /* Preview Assets.xcassets in Resources */,
+				D94173E827F1A44A00BD94A8 /* Localizable.strings in Resources */,
+				D94173E627F1A43800BD94A8 /* Awards.json in Resources */,
+				D94173EB27F1A46400BD94A8 /* Colors.xcassets in Resources */,
+				D94173E927F1A44F00BD94A8 /* Localizable.stringsdict in Resources */,
+				D94173CB27F1A2DB00BD94A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D963815827F0DEC40092C16D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,6 +722,46 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D94173C027F1A2D900BD94A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94173F827F1A51100BD94A8 /* PlatformAdjustments.swift in Sources */,
+				D94173EF27F1A4AC00BD94A8 /* Binding-OnChange.swift in Sources */,
+				D94173D527F1A41D00BD94A8 /* DataController-Awards.swift in Sources */,
+				D94173F327F1A4C300BD94A8 /* PurchaseButton.swift in Sources */,
+				D94173D927F1A42700BD94A8 /* HomeView.swift in Sources */,
+				D94173F127F1A4AC00BD94A8 /* Sequence-Sorting.swift in Sources */,
+				D94173EA27F1A45E00BD94A8 /* ContentView.swift in Sources */,
+				D94173E427F1A43500BD94A8 /* AwardsView.swift in Sources */,
+				D94173D827F1A42700BD94A8 /* ProjectSummaryView.swift in Sources */,
+				D94173F627F1A4C300BD94A8 /* ProductView.swift in Sources */,
+				D94173DA27F1A42700BD94A8 /* HomeViewModel.swift in Sources */,
+				D94173E027F1A42E00BD94A8 /* ProjectsView.swift in Sources */,
+				D94173DE27F1A42E00BD94A8 /* ProjectsViewModel.swift in Sources */,
+				D94173DD27F1A42E00BD94A8 /* ProjectHeaderView.swift in Sources */,
+				D94173DB27F1A42700BD94A8 /* ItemListView.swift in Sources */,
+				D94173E327F1A42E00BD94A8 /* ItemRowView.swift in Sources */,
+				D94173F427F1A4C300BD94A8 /* UnlockView.swift in Sources */,
+				D94173D627F1A41D00BD94A8 /* DataController-Reminders.swift in Sources */,
+				D94173D327F1A40E00BD94A8 /* PortfolioApp.swift in Sources */,
+				D94173DC27F1A42E00BD94A8 /* EditItemView.swift in Sources */,
+				D94173EE27F1A4AC00BD94A8 /* SKProduct-LocalizedPrice.swift in Sources */,
+				D94173F027F1A4AC00BD94A8 /* Bundle-Decodable.swift in Sources */,
+				D94173FC27F1A68800BD94A8 /* Color-Additions.swift in Sources */,
+				D94173EC27F1A4AC00BD94A8 /* Project-CoreDataHelpers.swift in Sources */,
+				D94173DF27F1A42E00BD94A8 /* ItemRowViewModel.swift in Sources */,
+				D94173F527F1A4C300BD94A8 /* UnlockManager.swift in Sources */,
+				D94173E727F1A44100BD94A8 /* Main.xcdatamodeld in Sources */,
+				D94173E127F1A42E00BD94A8 /* EditProjectsView.swift in Sources */,
+				D94173E227F1A42E00BD94A8 /* SelectSomethingView.swift in Sources */,
+				D94173D427F1A41D00BD94A8 /* DataController.swift in Sources */,
+				D94173D727F1A41D00BD94A8 /* DataController-StoreKit.swift in Sources */,
+				D94173E527F1A43500BD94A8 /* Award.swift in Sources */,
+				D94173F227F1A4AC00BD94A8 /* Item-CoreDataHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D963815627F0DEC40092C16D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,6 +818,7 @@
 				D94173BF27F15A2E00BD94A8 /* DataController-StoreKit.swift in Sources */,
 				D980D45C27ECCA970000DD41 /* UnlockManager.swift in Sources */,
 				D9D92A8527E32BCF00E2A7BE /* Main.xcdatamodeld in Sources */,
+				D94173FA27F1A5DC00BD94A8 /* Platform-Adjustments.swift in Sources */,
 				D96EB85027E6449A00C0DCB3 /* Color-Additions.swift in Sources */,
 				D997C6AE27E4209A006F757C /* Project-CoreDataHelpers.swift in Sources */,
 				D94173B027F0DFBE00BD94A8 /* DataController-Reminders.swift in Sources */,
@@ -745,6 +897,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D94173D127F1A2DB00BD94A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PortfolioMac/PortfolioMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PortfolioMac/Preview Content\"";
+				DEVELOPMENT_TEAM = S5UQWNYJJ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobynChau.PortfolioMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D94173D227F1A2DB00BD94A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PortfolioMac/PortfolioMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PortfolioMac/Preview Content\"";
+				DEVELOPMENT_TEAM = S5UQWNYJJ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobynChau.PortfolioMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D963816A27F0DEC50092C16D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1052,6 +1262,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D94173D027F1A2DB00BD94A8 /* Build configuration list for PBXNativeTarget "PortfolioMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94173D127F1A2DB00BD94A8 /* Debug */,
+				D94173D227F1A2DB00BD94A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D963816C27F0DEC50092C16D /* Build configuration list for PBXNativeTarget "PortfolioWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -9,7 +9,10 @@ import SwiftUI
 
 @main
 struct PortfolioApp: App {
+    #if os(iOS)
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    #endif
+
     @StateObject var dataController: DataController
     @StateObject var unlockManager: UnlockManager
 
@@ -32,7 +35,7 @@ struct PortfolioApp: App {
                     // the foreground app. Use this rather than the scene phase
                     // API so we can port to macOS, where scene phase won't detect
                     // our app losing focus as of macOS 11.1.
-                    NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification),
+                    NotificationCenter.default.publisher(for: .willResignActive),
                     perform: save
                 )
                 .onAppear(perform: dataController.appLaunched)

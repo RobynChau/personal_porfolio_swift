@@ -60,12 +60,14 @@ struct EditProjectsView: View {
             }
             Section("Project reminders:") {
                 Toggle("Show reminders", isOn: $remindMe.animation().onChange(update))
-                    .alert(isPresented: $showingNotificationsError) {
-                        Alert(
-                            title: Text("Oops!"),
-                            message: Text("There was a problem. Please check you have notifications enabled"),
-                            primaryButton: .default(Text("Check settings"), action: showAppSettings),
-                            secondaryButton: .cancel())
+                    .alert("Oops!", isPresented: $showingNotificationsError) {
+                        #if os(iOS)
+                        Button("Check settings", action: showAppSettings)
+                        #endif
+
+                        Button("OK", role: .cancel) { }
+                    } message: {
+                        Text("There was a problem. Please check you have notifications enabled")
                     }
 
                 if remindMe {
@@ -187,6 +189,7 @@ struct EditProjectsView: View {
         .accessibilityLabel(LocalizedStringKey(item))
     }
 
+    #if os(iOS)
     func showAppSettings() {
         guard let settingURL = URL(string: UIApplication.openSettingsURLString) else {
             return
@@ -196,6 +199,7 @@ struct EditProjectsView: View {
             UIApplication.shared.open(settingURL)
         }
     }
+    #endif
 }
 
 struct EditProjectsView_Previews: PreviewProvider {
